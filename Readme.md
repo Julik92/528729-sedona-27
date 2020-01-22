@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Юлий Кравец](https://up.htmlacademy.ru/htmlcss/27/user/528729).
-* Наставник:[Данила Некрасов](https://up.htmlacademy.ru/htmlcss/27/user/1321045)
+* Наставник: [Данила Некрасов](https://up.htmlacademy.ru/htmlcss/27/user/1321045)
 
 ---
 
