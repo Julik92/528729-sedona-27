@@ -1,0 +1,41 @@
+.visually-hidden {
+	visibility: hidden;
+}
+
+.logo-sedona {
+  width: 140px;
+  height: 71px;
+  object-fit: contain;
+}
+
+h2 {
+  width: 440px;
+  height: 48px;
+  font-family: PTSans;
+  font-size: 21px;
+}
+
+
+.site-navigation {
+  width: 98px;
+  height: 12px;
+  font-family: PTSans;
+  justify-content: center;
+}
+
+p {
+	font-size: 14px;
+	color: #333333;
+}
+
+.welcome {
+  width: 459px;
+  height: 353px;
+  object-fit: contain;
+}
+
+.header.logo {
+  width: 1200px;
+  height: 773px;
+  object-fit: contain;
+}
