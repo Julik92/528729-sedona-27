@@ -131,3 +131,45 @@ p {
 .main-header-logo {
 	text-align: center;
 }
+
+
+
+/*страница каталога*/
+
+
+.hostell {
+	text-align: left;
+}
+
+.reiting {
+	text-align: right;
+}
+
+.reiting1 {
+	text-align: right;
+}
+
+.inform {
+	text-align: left;
+}
+
+.detailed {
+	width: 110px;
+    height: 27px;
+    background-color: #81b3d2;
+    text-align: left;
+    color: #ffffff;
+	font-size: 14px;
+	line-height: 26px;
+
+}
+
+.book {
+	width: 142px;
+    height: 27px;
+    background-color: #766357;
+    text-align: left;
+    color: #ffffff;
+	font-size: 14px;
+	line-height: 26px;
+}
