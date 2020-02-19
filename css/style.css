@@ -6,6 +6,7 @@ body {
 	font-size: 14px;
 	color: #333333;
 	text-transform: uppercase;
+	box-sizing: content-box
 }
 
 a {
@@ -30,6 +31,10 @@ p {
 	text-align: center;
 }
 
+ul {
+	list-style: none;
+}
+
 .visually-hidden {
 	display: none;
 }
@@ -37,17 +42,38 @@ p {
 .main-navigation {
 	font-size: 14px;
 	line-height: 1.86;
-	color: var(--black);
+	color: #000000;
+    flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-	background-color: white;
+.main-header-logo {
+	position: absolute;
+    top: 0;
+	
+}
+
+.header.logo {
+
 }
 
 .site-navigation {
 	list-style: none;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
 }
 
 .site-navigation a {
-	color: var(--black);
+	color: #000000;
+	flex-wrap: wrap;
+    width: 239px;
+    height: 56px;
+    padding: 22px 74px;
+    font-weight: bold;
 }
 
 .site-navigation a:hover,
@@ -57,10 +83,12 @@ p {
 
 .fici-list {
 	list-style: none;
+	flex-wrap: wrap;
 }
 
 .fici-list li {
 	text-align: center;
+	flex-wrap: wrap;
 }
 
 .fici-list h3 {
@@ -80,7 +108,7 @@ p {
 	background-color: #eeeeee;
 }
 
-.button1 {
+.button-look {
     width: 568px;
     height: 86px;
     background-color: #766357;
@@ -91,7 +119,7 @@ p {
     text-align: center;
 }
 
-.button2 {
+.button-find {
 	width: 458px;
     height: 58px;
     background-color: #81b3d2;
