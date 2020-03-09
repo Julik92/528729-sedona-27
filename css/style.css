@@ -53,6 +53,7 @@ img {
   position: absolute;
   left: 50%;
   margin-left: -70px;
+  z-index: 1;
 }
 
 .main-header {
@@ -94,6 +95,7 @@ img {
   align-items: center;
   justify-content: center;
   height: 507px;
+  position: relative;
 }
 
 .welcome:after {
