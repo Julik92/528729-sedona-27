@@ -96,27 +96,37 @@ img {
   height: 507px;
 }
 
+.welcome:after {
+  content: '';
+  background-image: url(../img/polygon.png);
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 57px;
+  background-repeat: no-repeat;
+}
+
 
 /* main */
 
-.img-sity {
-  text-align: right;
-  flex-basis: 800px;
-}
-
-.img-most {
-  flex-basis: 800px;
-}
-
-.features {
+.main-content {
   text-align: center;
 }
+
+.first-information {
+  background-color: white;
+  width: 1200px;
+  height: 215px;
+}
+
 
 .features-title {
   font-size: 21px;
   font-weight: bold;
   line-height: 1.24;
   text-align: center;
+  margin: 0;
 }
 
 .features-list {
@@ -124,26 +134,14 @@ img {
   text-align: center;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
+
 
 .features-list li {
   display: flex;
   flex-wrap: wrap;
   width: 1200px;
-}
-
-.conteiner-most {
-  width: 100%;
-  display: flex;
-  min-height: 256px;
-
-  margin: auto;
-  width: 1200px;
-}
-
-.row li {
-  text-decoration: none;
-  list-style: none;
 }
 
 .card {
@@ -154,19 +152,7 @@ img {
   text-align: center;
   width: 400px;
   line-height: 21px;
-}
-
-.row {
-  width: 100%;
-  text-align: center;
-  min-height: 256px;
-  background-color: #eeeeee;
-  margin: auto;
-  width: 1200px;
-
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  height: 259px;
 }
 
 .card-gray {
@@ -176,10 +162,14 @@ img {
   line-height: 21px;
 }
 
-.card h3 {
-  font-size: 21px;
-  font-weight: 700;
-  line-height: 21px;
+.img-sity {
+  text-align: right;
+  flex-basis: 800px;
+  height: 256px;
+}
+
+.img-most {
+  flex-basis: 800px;
 }
 
 .advantages-list {
@@ -191,6 +181,7 @@ img {
   margin: auto;
   width: 1200px;
   line-height: 21px;
+  height: 330px;
 
   display: flex;
 }
@@ -207,21 +198,35 @@ img {
   color: #000000;
 }
 
-
-.invocation {
-  margin: auto;
-  width: 1200px;
-  text-align: center;
+.first-end {
+  background-color: white;
+  height: 291px;
 }
 
-.invocation-title {
+.interest {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   font-family: 'PT Sans', sans-serif;
-
 }
 
+
+.main-map {
+  text-align: center;
+  margin: auto;
+  width: 1200px;
+  height: 594px;
+}
+
+.form {
+	text-align: center;
+	width: 91px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
 
 .button-look:hover {
   background-color: #604e43;
@@ -259,23 +264,7 @@ img {
   line-height: 26px;
 }
 
-.main-map {
-  text-align: center;
-  margin: auto;
-  width: 1200px;
-  height: 594px;
-}
 
-.form {
-	text-align: center;
-	width: 91px;
-  height: 12px;
-  color: #000000;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 26px;
-  text-transform: uppercase;
-}
 
 
 /*
@@ -318,83 +307,3 @@ footer
   text-align: center;
   color: #000000;
 }
-
-
-/*страница каталога*/
-
-.katalog-content {
-  list-style: none;
-}
-
-.hostell:hover {
-  color: #81b3d2;
-}
-
-.hostell:active {
-  color: #CBCBCB;
-}
-
-.hostell {
-	text-align: left;
-}
-
-.proposal {
-	text-align: left;
-}
-
-.reiting {
-  width: 110px;
-  height: 27px;
-  background-color: #f2f2f2;
-  font-family: PTSans;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: center;
-  color: #666666;
-}
-
-.inform {
-	text-align: left;
-}
-
-.detailed:hover {
-  background-color: #669ec0;
-}
-
-.detailed:active {
-  background-color: #5496bd;
-}
-
-.detailed {
-	width: 110px;
-  height: 27px;
-  background-color: #81b3d2;
-  font-family: PTSans;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: left;
-  color: #ffffff;
-
-}
-
-.book:hover {
-  background-color: #604e43;
-}
-
-.book:active {
-  background-color: #503e33;
-}
-
-.book {
-	width: 142px;
-  height: 27px;
-  background-color: #766357;
-  font-family: PTSans;
-  font-size: 14px;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: left;
-  color: #ffffff;
-}
-
