@@ -135,6 +135,7 @@ img {
   list-style: none;
   padding: 0;
   margin: 0;
+  height: 259px;
 }
 
 
@@ -208,6 +209,7 @@ img {
   line-height: 36px;
   text-align: center;
   font-family: 'PT Sans', sans-serif;
+  margin: 0;
 }
 
 
@@ -306,4 +308,83 @@ footer
   line-height: 1.86;
   text-align: center;
   color: #000000;
+}
+
+
+/*страница каталога*/
+
+.katalog-content {
+  list-style: none;
+}
+
+.hostell:hover {
+  color: #81b3d2;
+}
+
+.hostell:active {
+  color: #CBCBCB;
+}
+
+.hostell {
+	text-align: left;
+}
+
+.proposal {
+	text-align: left;
+}
+
+.reiting {
+  width: 110px;
+  height: 27px;
+  background-color: #f2f2f2;
+  font-family: PTSans;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #666666;
+}
+
+.inform {
+	text-align: left;
+}
+
+.detailed:hover {
+  background-color: #669ec0;
+}
+
+.detailed:active {
+  background-color: #5496bd;
+}
+
+.detailed {
+	width: 110px;
+  height: 27px;
+  background-color: #81b3d2;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff;
+
+}
+
+.book:hover {
+  background-color: #604e43;
+}
+
+.book:active {
+  background-color: #503e33;
+}
+
+.book {
+	width: 142px;
+  height: 27px;
+  background-color: #766357;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff;
 }
