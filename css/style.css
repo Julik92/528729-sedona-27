@@ -136,6 +136,7 @@ img {
   padding: 0;
   margin: 0;
   height: 259px;
+  display: flex;
 }
 
 
@@ -143,6 +144,11 @@ img {
   display: flex;
   flex-wrap: wrap;
   width: 1200px;
+}
+
+.features-list h3 {
+  font-size: 21px;
+  font-weight: bold;
 }
 
 .card {
@@ -161,6 +167,7 @@ img {
   background-color: #eeeeee;
   text-align: center;
   line-height: 21px;
+  margin: auto;
 }
 
 .img-sity {
@@ -191,6 +198,8 @@ img {
   text-decoration: none;
   list-style: none;
   flex-basis: 400px;
+
+  margin: auto;
 }
 
 .advantages-list h3{
