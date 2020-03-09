@@ -168,6 +168,13 @@ img {
   text-align: center;
   line-height: 21px;
   margin: auto;
+
+  position: relative;
+  height: auto;
+}
+
+.card-gray h3 {
+  color: #000000;
 }
 
 .img-sity {
@@ -202,7 +209,7 @@ img {
   margin: auto;
 }
 
-.advantages-list h3{
+.advantages-list h3 {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -292,9 +299,6 @@ footer
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
-  margin: auto;
-  text-align: center;
 }
 
 .footer-contacts {
@@ -302,13 +306,20 @@ footer
   font-size: 21px;
   font-weight: bold;
   line-height: 1.24;
-  text-align: center;
+  text-align: start;
   color: #000000;
 }
 
 .social {
   text-decoration: none;
   list-style: none;
+  padding: 0;
+}
+
+.social a {
+  text-align: center;
+  width: 48px;
+  height: 48px;
 }
 
 .copyright {
