@@ -115,27 +115,26 @@
         <h2 class="interest">Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
       </div>
+      <button class="button-look" type="button">Поиск гостиницы в Седоне</button>
     </section>
-
-
-
 
 
     <section class="form">
       <h2 class="visually-hidden">Поиск гостиницы в седоне></h2>
 
+
+
       <form class="form-hotel" action="#" method="post">
-        <button class="button-look">Поиск гостиницы в Седоне</button>
         <label for="date-of-arrival">Дата заезда:
-          <input id="date-of-arrival" type="text" name="date" placeholder="27 апреля 2017">
+          <input id="date-of-arrival" type="date" required name="date" placeholder="27 апреля 2017">
         </label>
         <label for="date-of-departure">Дата выезда:
-          <input id="date-of-departure" type="text" name="date-exit" placeholder="4 июля 2017">
+          <input id="date-of-departure" type="date"  name="date-exit" placeholder="4 июля 2017">
         </label>
-        <label for="adults">Взрослые
+        <label for="adults">Взрослые:
           <input id="adults" type="number" name="adults" value="2" min="0" max="10">
         </label>
-        <label for="children">Дети
+        <label for="children">Дети:
           <input id="children" type="number" name="children" value="0" min="0" max="10">
         </label>
         <button class="button-find" type="submit">Найти</button>

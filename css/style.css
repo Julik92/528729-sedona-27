@@ -45,6 +45,7 @@ img {
     line-height: 1.86;
     color: #000000;
     height: 100%;
+    position:relative;
 }
 
 .main-header-logo {
@@ -114,11 +115,11 @@ img {
 
 .main-content {
   text-align: center;
+  background-color: white;
 }
 
 .first-information {
   background-color: white;
-  width: 1200px;
   height: 215px;
   padding: 60px 0 0 0;
 }
@@ -163,6 +164,10 @@ img {
   width: 400px;
   line-height: 21px;
   height: 259px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card-gray {
@@ -266,6 +271,7 @@ img {
   font-size: 21px;
   line-height: 26px;
   text-align: center;
+  border: 0;
 }
 
 .button-find:hover {
@@ -284,6 +290,8 @@ img {
   color: #ffffff;
   font-size: 21px;
   line-height: 26px;
+  border: 0;
+  margin: auto;
 }
 
 
@@ -411,4 +419,50 @@ footer
   line-height: 1.5;
   text-align: left;
   color: #ffffff;
+}
+
+
+/* forma */
+
+.form-hotel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+  height: 395px;
+  width: 568px;
+  background-color: white;
+  margin-left: 316px;
+  margin-right: 316px;
+}
+
+#date-of-departure {
+  background: url(../img/calendar.svg) no-repeat center right;
+  width: 346px;
+  height: 38px;
+  text-align: center;
+  outline: none;
+  background-color: #F2F2F2;
+}
+
+
+#date-of-arrival {
+  background: url(../img/calendar.svg) no-repeat center right;
+  width: 346px;
+  height: 38px;
+  text-align: center;
+  outline: none;
+  background-color: #F2F2F2;
+}
+
+#adults {
+  width: 117px;
+  height: 38px;
+  background-color: #F2F2F2;
+}
+
+#children {
+  width: 117px;
+  height: 38px;
+  background-color: #F2F2F2;
 }
