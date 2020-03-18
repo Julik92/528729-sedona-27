@@ -128,6 +128,19 @@ img {
   padding: 60px 0 0 0;
 }
 
+.main-content {
+  text-align: center;
+  background-color: white;
+}
+
+.first-information {
+  background-color: white;
+  height: 215px;
+  padding: 60px 0 0 0;
+}
+
+
+
 
 .features-title {
   font-size: 21px;
@@ -333,6 +346,7 @@ footer
   line-height: 1.24;
   letter-spacing: normal;
   text-align: center;
+  text-align: start;
   color: #000000;
 }
 
@@ -796,9 +810,6 @@ fieldset, ul{
   border: none;
 }
 
-
-
-
   /*     forma      */
 
 
@@ -1047,3 +1058,48 @@ fieldset, ul{
     top: 0;
     left: 0;
     z-index: -1;
+  }
+/* forma */
+
+.form-hotel {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+  height: 395px;
+  width: 568px;
+  background-color: white;
+  margin-left: 316px;
+  margin-right: 316px;
+}
+
+#date-of-departure {
+  background: url(../img/calendar.svg) no-repeat center right;
+  width: 346px;
+  height: 38px;
+  text-align: center;
+  outline: none;
+  background-color: #F2F2F2;
+}
+
+
+#date-of-arrival {
+  background: url(../img/calendar.svg) no-repeat center right;
+  width: 346px;
+  height: 38px;
+  text-align: center;
+  outline: none;
+  background-color: #F2F2F2;
+}
+
+#adults {
+  width: 117px;
+  height: 38px;
+  background-color: #F2F2F2;
+}
+
+#children {
+  width: 117px;
+  height: 38px;
+  background-color: #F2F2F2;
+}
