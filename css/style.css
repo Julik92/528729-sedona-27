@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -101,13 +102,14 @@ img {
 
 .welcome:after {
   content: '';
-  background-image: url(../img/polygon.png);
+  background-image: url(../img/polygon.svg);
   display: block;
   width: 100%;
   position: absolute;
   bottom: 0;
   height: 57px;
   background-repeat: no-repeat;
+  margin-bottom: -1px;
 }
 
 
@@ -250,7 +252,6 @@ img {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  font-family: 'PT Sans', sans-serif;
   margin: 0;
 }
 
@@ -338,7 +339,6 @@ footer
 .info a {
   width: 223px;
   height: 20px;
-  font-family: PTSans;
   font-size: 21px;
   font-weight: bold;
   font-stretch: normal;
