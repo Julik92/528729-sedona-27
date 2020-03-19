@@ -150,6 +150,7 @@ img {
   line-height: 1.24;
   text-align: center;
   margin: 0;
+  padding-bottom: 38px;
 }
 
 .features-list {
@@ -176,9 +177,9 @@ img {
 
 .card {
   background-color: #81b3d2;
-  text-transform: 'uppercase';
+
   color: #ffffff;
-  display: inline-block;
+
   text-align: center;
   width: 400px;
   line-height: 21px;
@@ -345,8 +346,6 @@ footer
   font-style: normal;
   line-height: 1.24;
   letter-spacing: normal;
-  text-align: center;
-  text-align: start;
   color: #000000;
 }
 
@@ -381,6 +380,7 @@ footer
   background-color: #81b3d2;
   list-style: none;
   line-height: 55px;
+  cursor: pointer;
 }
 .social li:nth-child(2){
   padding-top: 2px;
@@ -426,7 +426,7 @@ main-catalog {
     line-height: 21px;
 }
 
-.container-2{
+.content-block{
   width: 1200px;
   margin: 0 auto;
   border-bottom: 1px solid #e5e5e5;
@@ -476,7 +476,7 @@ fieldset, ul{
 }
 
 .checkbox ul{
-  min-height: 112px;
+  height: 112px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -753,8 +753,7 @@ fieldset, ul{
 }
 .rang p{
   background-color: #f2f2f2;
-  padding-bottom: 3px;
-  padding-left: 16px;
+  padding: 5px 13px 6px 13px;
 }
 .stars{
   display: flex;
@@ -768,6 +767,7 @@ fieldset, ul{
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 8px 17px;
 }
 .detailed:hover{
   border: none;
@@ -787,6 +787,7 @@ fieldset, ul{
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 8px 17px;
 }
 .book:hover{
   border: none;
@@ -812,7 +813,9 @@ fieldset, ul{
 
   /*     forma      */
 
-
+.form button {
+  cursor: pointer;
+}
 
   .form-title{
     text-align: center;
@@ -1073,33 +1076,23 @@ fieldset, ul{
   margin-right: 316px;
 }
 
-#date-of-departure {
-  background: url(../img/calendar.svg) no-repeat center right;
+.date-of-departure {
+  background: url(../img/calendar.svg) #F2F2F2 no-repeat center right;
   width: 346px;
   height: 38px;
   text-align: center;
   outline: none;
-  background-color: #F2F2F2;
 }
 
 
-#date-of-arrival {
-  background: url(../img/calendar.svg) no-repeat center right;
+.date-of-arrival {
+  background: url(../img/calendar.svg) #F2F2F2 no-repeat center right;
   width: 346px;
   height: 38px;
   text-align: center;
   outline: none;
-  background-color: #F2F2F2;
 }
 
-#adults {
-  width: 117px;
-  height: 38px;
-  background-color: #F2F2F2;
-}
-
-#children {
-  width: 117px;
-  height: 38px;
-  background-color: #F2F2F2;
+.form-title button {
+  cursor: pointer;
 }
