@@ -64,6 +64,9 @@ img {
   background-color: white;
 }
 
+
+/* может заменю на блок site-navigation 
+
 .site-navigation {
   list-style: none;
   flex-wrap: wrap;
@@ -75,6 +78,53 @@ img {
   padding: 0;
   margin: auto;
 }
+
+*/
+
+/* .site-navigation */
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0;
+  margin: 0;
+  padding: 15px 72px;
+
+  list-style-type: none;
+}
+
+.site-navigation a,
+.site-navigation a:visited {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation a.current-page {
+  color: #766357;
+}
+
+/* .site-navigation */
+
+
+
+.site-navigation li:nth-child(3),
+.site-navigation li:last-child {
+  text-align: right;
+}
+
+.site-navigation li:nth-child(3) {
+  padding-left: 126px;
+}
+
 
 .site-navigation a {
   color: #000000;
@@ -89,6 +139,8 @@ img {
   color: #000000;
   opacity: 0.3;
 }
+
+
 
 .welcome {
   background-color: rgb(219, 219, 236);
@@ -111,6 +163,10 @@ img {
   height: 57px;
   background-repeat: no-repeat;
 }
+
+
+
+
 
 
 /* main */
@@ -764,6 +820,7 @@ fieldset, ul{
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 5px 17px;
 }
 .detailed:hover{
   border: none;
@@ -783,6 +840,7 @@ fieldset, ul{
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 5px 17px;
 }
 .book:hover{
   border: none;
