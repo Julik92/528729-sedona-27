@@ -65,7 +65,7 @@ img {
 }
 
 
-/* может заменю на блок site-navigation 
+/* может заменю на блок site-navigation
 
 .site-navigation {
   list-style: none;
@@ -1105,7 +1105,7 @@ fieldset, ul{
   .map iframe{
     position: relative;
     z-index: 0;
-    border: none;
+    border: 0px;
   }
   .map img{
     position: absolute;
