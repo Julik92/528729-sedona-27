@@ -8,6 +8,7 @@ var form = document.querySelector("form");
 var date_off = document.querySelector(".date-off");
 var number = document.querySelector(".number-parents");
 
+popup.classList.remove("search-form-show");
 
 link.addEventListener("click", function (evt) {
   evt.preventDefault();
@@ -18,8 +19,6 @@ link.addEventListener("click", function (evt) {
 form.addEventListener("submit", function (evt) {
   if (!date_on.value || !date_off.value || !number.value){
     evt.preventDefault();
-      popup.classList.remove("search-form-error");
-      popup.offsetWidth = popup.offsetWidth;
       popup.classList.add("search-form-error");
       }
       })
